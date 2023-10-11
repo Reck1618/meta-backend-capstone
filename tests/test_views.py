@@ -12,5 +12,5 @@ class MenuViewTest(TestCase):
 		menu1 = Menu.objects.get(title="Title1")
 		menu2 = Menu.objects.get(title="Title2")
 
-		self.assertEqual(menu1, "Title1: 1")
-		self.assertEqual(menu2, "Title2: 2")
+		self.assertEqual(str(menu1), "Title1 : 1.00")
+		self.assertEqual(str(menu2), "Title2 : 2.00")
