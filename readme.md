@@ -1,7 +1,7 @@
 Meta Backend Capstone
 This is a capstone project for the Meta Back-End Development course
 
-Commands
+# Commands
 
 First, go to the project directory.
 
@@ -29,4 +29,19 @@ If you already have a database set up, change the setting in the settings.py fil
 
 # Run development server
 python manage.py runserver
+
+# Endpoints
+For html page:
+-> /api/
+
+For API: 
+-> /api/menu/
+-> /api/menu/<int>
+-> /api/bookings/
+
+For Auth:
+-> /api-token-auth/
+
+Djoser endpoints:
+-> /auth/
 
